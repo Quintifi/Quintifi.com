@@ -1,0 +1,60 @@
+.header {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-duration: .15s;
+  transition-duration: .15s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0,0,.58,1);
+  transition-timing-function: cubic-bezier(0,0,.58,1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+}
+.header__logo {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-duration: .15s;
+  transition-duration: .15s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0,0,.58,1);
+  transition-timing-function: cubic-bezier(0,0,.58,1);
+  fill: #563D7A;
+  display: block;
+  width: 218px;
+  float: left;
+  margin-top: 38px;
+}
+.header__nav {
+  text-align: right;
+  width: 60%;
+  /* float: right; */
+  padding: 2rem 0;
+}
+.header__nav .nav__item {
+  display: inline-block;
+}
+ol, ul {
+  list-style: none;
+}
+.header__nav .nav__item a {
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: "Saira Condensed";
+  font-size: .9em;
+  text-transform: uppercase;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-duration: .15s;
+  transition-duration: .15s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(0,0,.58,1);
+  transition-timing-function: cubic-bezier(0,0,.58,1);
+  padding: .5rem 1.5rem;
+  position: relative;
+}
